@@ -7,7 +7,8 @@
     <title>La Riviére</title>
     <!--Bootstrap-->    
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <link rel="stylesheet" href="css/lr-theme.css">
     
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     [if lt IE 9]>
@@ -16,27 +17,32 @@
     <![endif]
 </head>
 <body>
-    <nav class="navbar navbar-light bg-faded">
-        <div class="container">
-            <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">&#9776;</button>
-            <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
-                <a class="navbar-brand" href="#">Responsive navbar</a>
-                <ul class="nav navbar-nav pull-xs-right">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                </ul>
-            </div>
+   <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Bootstrap theme</a>
         </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active lr-navbar-title"><a href="#">NUTRICIÓN</a></li>
+            <li><a class="lr-navbar-title" href="#">ESTÉTICA</a></li>
+            <li><a href="#">DENTA</a></li>
+            <li><a href="#">PNL</a></li>
+            <li class="lr-navbar-title"><a href="#">OZONOTERAPIA</a></li>
+            <li class="lr-navbar-title"><a href="#">CIRUGÍA MENOR</a></li>
+            <li class="lr-navbar-title"><a href="#">LA RIVIERE</a></li>
+            <li class="lr-navbar-title"><a href="#">MÁS FAMILIA</a></li>
+            <li class="lr-navbar-title"><a href="#">BLOG</a></li>
+            <li class="lr-navbar-reserve"><a href="#">RESERVA</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
     </nav>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
